@@ -1,0 +1,31 @@
+{
+  "name": "play-react-webpack",
+  "version": "1.0.0",
+  "description": "Playframework + React Js + webpack",
+  "main": "react/index.js",
+  "author": "Nouhoum Traoré",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/webpack --watch",
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/nouhoum/play-react-webpack/issues"
+  },
+  "homepage": "https://github.com/nouhoum/play-react-webpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
