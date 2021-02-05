@@ -1,0 +1,14 @@
+.page_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+image_const {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+}
