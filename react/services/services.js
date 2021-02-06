@@ -1,4 +1,4 @@
-import ApiUtils from '../utils/ApiUtils.js'
+import ApiUtils from '../Utils/ApiUtils.js'
 
 const endPoints = {
 
