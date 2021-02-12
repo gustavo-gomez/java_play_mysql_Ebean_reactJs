@@ -6,5 +6,5 @@ target
 /.project
 /.settings
 /RUNNING_PID
-node_modules
+react/node_modules
 public/javascripts
