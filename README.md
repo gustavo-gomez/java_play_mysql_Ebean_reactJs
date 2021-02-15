@@ -1,8 +1,8 @@
 ## Overview
 
-- **This is a template, which you can start from**
-- **We are using: Play Framework 2.8, Java 11, Webpack, ReactJs, Ebean ORM, MYSQL**
-- **In the view you will find a button, this will insert a new row in database, using Ebean ORM to connect Java and MYSQL**
+- This is a template, which you can start from
+- We are using: Play Framework 2.8, Java 11, Webpack, ReactJs, Ebean ORM, MYSQL
+- In the view you will find a button, this will insert a new row in database, using Ebean ORM to connect Java and MYSQL
 
 ## Pre Requisites
 
