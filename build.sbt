@@ -1,5 +1,5 @@
-name := """ingeniaappsweb"""
-organization := "Ingenia Apps"
+name := """java_play_mysql_Ebean_reactJs"""
+organization := ""
 
 version := "1.0"
 
@@ -13,6 +13,6 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "mysql" % "mysql-connector-java" % "8.0.15"
-//  "mysql" % "mysql-connector-java" % "5.1.41"
+//  "mysql" % "mysql-connector-java" % "8.0.15"
+  "mysql" % "mysql-connector-java" % "5.1.41"
 )

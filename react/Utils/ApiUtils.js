@@ -29,7 +29,6 @@ export default class ApiUtils {
   }
 
   static handleResponse(response) {
-    console.log('response: ', response)
     return response.json()
       .then(data => {
         if (!response.ok) {
@@ -51,8 +50,6 @@ export default class ApiUtils {
       ...getHeaders(jsonFormat),
       body: body
     }
-    console.log('requestOptions: ', requestOptions)
-    console.log('url: ', url)
     return fetch(this.getServer(url), requestOptions).then(ApiUtils.handleResponse)
   }
 }

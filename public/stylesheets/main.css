@@ -1,14 +1,45 @@
-.page_container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+#app {
+    height: 100%;
 }
 
-image_const {
-    width: 100%;
-    height: 100%;
+.row {
+    display: flex;
+    justify-content: space-around;
 }
 
 body {
     height: 100vh;
+    background-color: #282c34;
+}
+
+.App {
+    height: 100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.App-logo {
+    height: 27vmin;
+}
+
+.header{
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.button{
+    height: 50px;
+    font-size: 30px;
+    color: #046089;
+    font-weight: bold;
+    margin-left: 20px;
 }
